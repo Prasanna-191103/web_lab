@@ -1,0 +1,139 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    background-color: #F7DEFE;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 11px 0;
+    height: 50px;
+}
+
+.main-content {
+    text-align: center;
+    
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.options a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    margin-top: 50px;
+    
+}
+
+
+.watermark {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    right: 0;
+    transform: translate(-25%, -50%);
+    text-align: right;
+    justify-content: center;
+    margin-left: 150px;
+
+  }
+
+  .line1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8); 
+    font-family: ;
+  }
+
+  .line2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 122px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1); 
+  }
+
+  .line3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8); 
+  }
+
+  .line4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    margin-left: 100px;
+    position: relative;
+  }
+  nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  article {
+    display: flex;
+    border: 1px solid #ccc; /* Add border for the rectangular box */
+    overflow: hidden; /* Ensure videos do not overflow outside the box */
+  }
+
+  .vid {
+    width: 50%; /* Each video takes up 50% of the width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 15px; /* Add padding for spacing within the sections */
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%; /* Make the iframe fill the entire section */
+  }
+
+

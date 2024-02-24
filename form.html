@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astralland-Register</title>
+
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h3 style="text-align: center;">Register for Tickets</h3>
+    <div style="justify-content: center;display: flex;">
+        
+        <div>
+            <div  style="background-color: rgb(226, 218, 225);">
+                <form >
+                    <label>Username</label><br>         <input type="text" placeholder="Enter Username" required pattern="[A-Za-z]{4,15}"/><br>
+                    <label for="">Age</label><br>       <input type="number" placeholder="Your Age" required min="5" max="85"/><br>
+                    <label for="">E-mail</label><br>    <input type="email" placeholder="someone@gmail.com" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/><br>
+                    <label>Phone Number</label><br>     <input type="tel" placeholder="xxxxx xxxxx" required pattern="[0-9]{10}"/><br>
+                    <label for="">Password</label><br>  <input type="password" placeholder="L#5M3sF" required minlength="8" /><br><br>
+                    <button type="submit">Register</button><br>
+                    <!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
