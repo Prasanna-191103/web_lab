@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles1.css" />
     <title>Astralland</title>
   </head>
   <body>
@@ -14,12 +14,12 @@
       <nav>
         <a href="">Explore</a>
         <a href="">Things to Do</a>
-        <a href="">Events</a>
-        <a href="">Gallery</a>
         <a href="">Blog</a>
-        <a href="#foot">About Us</a>
-        <a href="#choices" style="display:inline;padding-left:300px">Book Tickets</a>
-        <a href="">Register</a>
+        <a href="">Gallery</a>
+        <a href="explore.html" class="button">Events</a>
+        <a href="aboutus.html"class="button">About Us</a>
+        <a href="#choices" >Book Tickets</a>
+        <a href="login.html" class="button">Register</a>
       </nav>
     </section>
 
@@ -36,6 +36,7 @@
         delicious treats, we have something for everyone.
       </p>
       <br />
+      <h1 class="blink">🌟LIMITED EDITION🌟</h1>
       <article>
         <section class="vid">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/MFs9cTbPELc?si=im-8dwONxEu6UgAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -58,15 +59,34 @@
         <a href="#">Upcoming Events</a>
       </div>
     </div>
-
     <div class="watermark">
       <div class="line1">FLAT</div>
       <div class="line2">20%</div>
       <div class="line3">OFF</div>
       <div class="line4">By showing your college id</div>
     </div>
+    <script>
+      $("#limitedEditionText").fadeIn(300).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
+    </script>
     <footer id="foot">
       <p>&copy; 2024 Amusement Park. All rights reserved.</p>
     </footer>
+    <style>
+      @keyframes blink {
+          0% {
+              opacity: 1;
+          }
+          50% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+  
+      .blink {
+          animation: blink 1s infinite;
+      }
+  </style>
   </body>
 </html>
