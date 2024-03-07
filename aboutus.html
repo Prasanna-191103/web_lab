@@ -6,7 +6,6 @@
     <title>About Us - AdventureLand Theme Park</title>
     <h1>About Us</h1>
     <style>
-        /* Add your CSS styling here */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -58,5 +57,14 @@
         <h2>Plan Your Visit</h2>
         <p>Ready to embark on the adventure of a lifetime? Plan your visit to AdventureLand today! Whether you're celebrating a special occasion or just looking for a fun day out, we can't wait to welcome you to our park. Check out our website for ticket information, park hours, and more. We'll see you soon at AdventureLand – where the fun never ends!</p>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('section h2').click(function() {
+                $(this).next('p').slideToggle();
+            });
+        });
+    </script>
 </body>
 </html>
